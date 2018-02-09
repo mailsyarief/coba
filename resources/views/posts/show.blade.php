@@ -7,6 +7,10 @@
 </div>
 <hr>
 <div class="container">
+    <img style="width:50%" src="/storage/cover_image/{{$post->cover_image}}"></img>
+</div>
+<hr>    
+<div class="container">
     {!!$post->body!!}
 </div>
 <hr>

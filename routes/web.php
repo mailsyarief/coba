@@ -16,6 +16,8 @@ Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
 Route::get('/welcome', 'PagesController@welcome');
 
+Route::get('/ifc', 'PagesController@ifc');
+
 
 route::resource('posts', 'PostsController');
 Auth::routes();

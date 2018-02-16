@@ -30,7 +30,7 @@ class PostsController extends Controller
     {
         //
         //$posts = Post::all();
-        $posts = Post::orderBy('id','desc')->paginate(5);
+        $posts = Post::orderBy('id','desc')->paginate(6);
         return view('posts.index')->with('posts', $posts);
     }
 

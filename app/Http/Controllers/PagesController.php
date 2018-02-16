@@ -26,4 +26,9 @@ class PagesController extends Controller
         return view('pages.services')->with('title', $title);
     }
 
+    public function ifc()
+    {
+        return view('ifc.ifc');
+    }
+
 }
